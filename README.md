@@ -1,1 +1,1 @@
-# landing-page
+In this project I will create an entire web page from scratch. This is good practice of my HTML and CSS skills, and will display what I have learned so far.
