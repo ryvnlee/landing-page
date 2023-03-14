@@ -43,7 +43,7 @@ a {
 .section {
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
+    padding-left: 300px;
     flex-shrink: 0;
     width: 400px;
     gap: 10px;
@@ -73,13 +73,13 @@ button {
 .mountain {
     display: flex;
     justify-content: flex-end;
-    padding-right: 150px;
+    padding-right: 100px;
     padding-bottom: 120px;
     padding-top: 120px;
 }
 
 img {
     border-radius: 8px;
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 70%;
+    max-height: 70%;
 }
