@@ -87,6 +87,7 @@ img[src="img/mountain.jpg"] {
 .container {
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .title1 {
@@ -95,19 +96,23 @@ img[src="img/mountain.jpg"] {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 .images {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 img[src="img/forest.jpg"], [src="img/road.jpg"], [src="img/snow.jpg"], [src="img/lake.jpg"] {
-    max-width: 30%;
-    max-height: 30%;
+    border-radius: 8px;
+    max-width: 15%;
+    max-height: 15%;
 }
 
 .cards {
     display: flex;
+    text-align: center;
+    padding-top: 10px;
+    color: #1F2937;
 }
