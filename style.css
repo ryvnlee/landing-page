@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+img {
+    max-width: 25%;
+    max-height: 25%;
+    border-radius: 8px;
+}
