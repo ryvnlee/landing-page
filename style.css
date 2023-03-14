@@ -34,7 +34,8 @@ a {
 .body {
     background-color: #1F2937;
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
     margin-left: -20px;
     margin-right: -20px;
 }
@@ -42,6 +43,10 @@ a {
 .section {
     display: flex;
     flex-direction: column;
+    padding-left: 200px;
+    flex-shrink: 0;
+    width: 400px;
+    gap: 10px;
 }
 
 .maintext1 {
@@ -58,11 +63,23 @@ a {
 button {
     border-radius: 8px;
     background-color: #3882F6;
+    border: none;
+    color: white;
+    font-weight: 900;
+    padding: 8px 16px;
+    width: 25%;
 }
 
-.car {
-    background-color: #1F2937;
+.mountain {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+img {
     border-radius: 8px;
-    max-width: 15%;
-    max-height: 10%;
+    max-width: 80%;
+    max-height: 80%;
 }
