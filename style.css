@@ -73,7 +73,7 @@ button {
 .mountain {
     display: flex;
     justify-content: flex-end;
-    padding-right: 100px;
+    padding-right: 50px;
     padding-bottom: 120px;
     padding-top: 120px;
 }
@@ -96,7 +96,7 @@ img[src="img/mountain.jpg"] {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 .images {
@@ -112,7 +112,39 @@ img[src="img/forest.jpg"], [src="img/road.jpg"], [src="img/snow.jpg"], [src="img
 
 .cards {
     display: flex;
+    justify-content: space-around;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 40px;
     color: #1F2937;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.maintext3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding-top: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+    width: 700px;
+}
+
+.sectext3 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-right: 800px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    color: #1F2937;
+    align-self: flex-end;
 }
