@@ -4,8 +4,35 @@ body {
 }
 
 .header {
+    background-color: #1F2937;
     display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
 }
+
+.headertext {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.section {
+    
+}
+
 img {
     max-width: 25%;
     max-height: 25%;
